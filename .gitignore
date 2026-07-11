@@ -1,1 +1,45 @@
+# Python cache
+__pycache__/
+*.py[cod]
 
+# Virtual environment
+venv/
+.env
+.env.*
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Python environment
+.python-version
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# SQLite database (if used)
+*.db
+
+# Flask cache
+instance/
+
+# Environment variables
+.env
