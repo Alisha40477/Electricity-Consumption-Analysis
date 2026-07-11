@@ -13,14 +13,14 @@ venv/
 # PyCharm
 .idea/
 
-# OS files
+# Operating System files
 .DS_Store
 Thumbs.db
 
 # Log files
 *.log
 
-# Python environment
+# Python version
 .python-version
 
 # Jupyter Notebook
@@ -38,8 +38,5 @@ dist/
 # SQLite database (if used)
 *.db
 
-# Flask cache
+# Flask instance folder
 instance/
-
-# Environment variables
-.env
