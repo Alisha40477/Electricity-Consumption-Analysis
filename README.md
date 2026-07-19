@@ -1,133 +1,153 @@
-# ⚡ Electricity Consumption Analysis using MySQL, Tableau, and Flask
+# ⚡ Plugging into the Future: An Exploration of Electricity Consumption Patterns
 
-## 📌 Project Overview
 
-Electricity Consumption Analysis is a Business Intelligence and Data Analytics project that analyzes electricity usage across different states and regions of India. The project uses MySQL for data storage, Tableau Desktop for interactive dashboards, Tableau Public for dashboard publishing, and Flask for deploying the dashboard through a web application.
-
-The project helps users visualize electricity consumption trends and gain valuable business insights through interactive charts, maps, and dashboards.
+A Business Intelligence and Data Analytics project that analyzes electricity consumption patterns across different states and regions of India using **MySQL**, **SQL**, **Tableau Desktop**, **Tableau Public**, and **Flask**.
 
 ---
 
-## 🎯 Objectives
+# 📖 Project Overview
+
+The **Plugging into the Future:An Exploration of Electricity Consumption Patterns** project is designed to transform raw electricity consumption data into meaningful business insights through interactive dashboards and visualizations.
+
+The project stores electricity consumption data in a MySQL database, performs SQL-based analysis, creates interactive dashboards in Tableau Desktop, publishes them using Tableau Public, and embeds the dashboard into a Flask web application for easy web access.
+
+This project demonstrates the practical application of Business Intelligence tools for analyzing electricity usage, identifying consumption trends, comparing regional demand, and supporting data-driven decision-making.
+
+---
+
+# 🎯 Project Objectives
 
 - Analyze electricity consumption across different states.
-- Compare electricity usage region-wise.
+- Compare electricity usage between regions.
 - Study monthly electricity consumption trends.
 - Identify the top electricity-consuming states.
-- Visualize electricity usage using maps.
-- Provide business insights for better decision-making.
+- Visualize electricity data using interactive maps.
+- Develop an interactive Tableau Dashboard.
+- Present insights using Tableau Story.
+- Deploy the dashboard through a Flask web application.
 
 ---
 
-## 🛠️ Technologies Used
+# ✨ Features
 
-- Python 3.12.7
-- Flask
-- MySQL
-- MySQL Workbench
-- Tableau Desktop
-- Tableau Public
-- Visual Studio Code
-- Git & GitHub
+- 📊 State-wise Electricity Analysis
+- 🌍 Region-wise Electricity Analysis
+- 📈 Monthly Electricity Usage Trends
+- 🗺️ Geographic Visualization
+- 🏆 Top 10 Electricity Consumers
+- 📖 Tableau Story
+- 🌐 Tableau Public Dashboard
+- 💻 Flask Web Application
+- 🗄️ SQL-Based Data Analysis
 
 ---
 
-## 📂 Project Structure
+# 🛠️ Technologies Used
 
-```
+| Technology | Purpose |
+|------------|---------|
+| Python 3.12.7 | Backend Development |
+| Flask | Web Application |
+| MySQL | Database |
+| MySQL Workbench | Database Management |
+| SQL | Data Analysis |
+| Tableau Desktop | Dashboard Development |
+| Tableau Public | Dashboard Publishing |
+| Visual Studio Code | Development Environment |
+| Git & GitHub | Version Control |
+| Microsoft Excel | Dataset Preparation |
+
+---
+
+# 📁 Repository Structure
+
+```text
 Electricity-Consumption-Analysis/
 │
-├── dataset/
-│   └── Consumption.csv
+├── 1 Brainstorming & Ideation/
 │
-├── reports/
-│   ├── IDEATION PHASE.pdf
-│   ├── REQUIREMENT ANALYSIS.pdf
-│   ├── PROJECT DESIGN PHASE.pdf
-│   ├── PROJECT PLANNING PHASE.pdf
-│   ├── PERFORMANCE TESTING PHASE.pdf
-│   └── PROJECT REPORT.pdf
+├── 2. Requirement Analysis/
 │
-├── screenshots/
-│   ├── Dashboard.png
-│   ├── Project Overview.png
-│   ├── Region-wise Electricity Usage.png
-│   ├── State-wise Electricity Usage.png
-│   ├── Monthly Electricity Usage Trend.png
-│   ├── State-wise Electricity Usage Map.png
-│   ├── Top 10 Electricity Consumers.png
-│   ├── Business Insights & Conclusion.png
-│   ├── Story 1.png
-│   ├── Story 2.png
-│   ├── Story 3.png
-│   ├── Story 4.png
-│   ├── Story 5.png
-│   ├── Story 6.png
-│   └── Story 7.png
+├── 3. Project Design Phase/
 │
-├── tableau/
-│   └── Electricity_Consumption_Analysis.twb
+├── 4.Project Planning Phase/
 │
-├── templates/
-│   └── index.html
+├── 5. Project Development Phase/
 │
-├── app.py
-├── queries.sql
-├── requirements.txt
+├── 6. Performance Testing/
+│
+├── 7.Doc and Demo/
+│   └── Demo Link.txt
+│
 ├── LICENSE
-├── .gitignore
-└── README.md
+├── README.md
 ```
 
 ---
 
-## 📊 Dashboard Features
+# 📊 Dashboard Components
+
+The Tableau Dashboard contains:
 
 - State-wise Electricity Usage
 - Region-wise Electricity Usage
 - Monthly Electricity Usage Trend
 - State-wise Electricity Usage Map
 - Top 10 Electricity Consumers
-- Interactive Dashboard
-- Business Insights & Conclusion
+- Interactive Filters
+- Business Insights
 
 ---
 
-## 📖 Tableau Story
+# 📖 Tableau Story
 
-The Tableau Story contains the following pages:
+The Tableau Story consists of the following pages:
 
 1. Project Overview
-2. Region-wise Electricity Usage
-3. State-wise Electricity Usage
-4. Monthly Electricity Usage Trend
+2. State-wise Electricity Usage
+3. Monthly Electricity Usage Trend
+4. Region-wise Electricity Usage
 5. State-wise Electricity Usage Map
 6. Top 10 Electricity Consumers
 7. Business Insights & Conclusion
 
 ---
 
-## 🚀 How to Run the Project
+# 🚀 How to Run the Project
 
-### Clone the Repository
+## 1️⃣ Clone the Repository
 
 ```bash
 git clone https://github.com/Alisha40477/Electricity-Consumption-Analysis.git
 ```
 
-### Install Dependencies
+---
+
+## 2️⃣ Navigate to the Project
+
+```bash
+cd Electricity-Consumption-Analysis
+```
+
+---
+
+## 3️⃣ Install Required Packages
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Run Flask Application
+---
+
+## 4️⃣ Run the Flask Application
 
 ```bash
 python app.py
 ```
 
-Open your browser and visit:
+---
+
+## 5️⃣ Open in Browser
 
 ```
 http://127.0.0.1:5000
@@ -135,55 +155,84 @@ http://127.0.0.1:5000
 
 ---
 
-## 🗄️ Database
+# 🗄️ Database Details
 
-Database Name:
-
-```
-electricity
-```
-
----
-
-## 📷 Project Screenshots
-
-The repository includes screenshots of:
-
-- Dashboard
-- Tableau Worksheets
-- Tableau Story
-- Flask Web Application
+| Item | Value |
+|------|-------|
+| Database | electricity |
+| Table | consumption |
+| Records | 16,599 |
 
 ---
 
-## 🔗 Tableau Public Dashboard
+# 📂 Project Modules
+
+- Brainstorming & Ideation
+- Requirement Analysis
+- Project Design
+- Project Planning
+- Project Development
+- Performance Testing
+- Final Documentation
+- Demo
+
+---
+
+# 📈 Business Insights
+
+The project provides insights into:
+
+- Electricity consumption across different states.
+- Regional electricity demand patterns.
+- Monthly electricity usage trends.
+- Top electricity-consuming states.
+- Geographic distribution of electricity usage.
+- Data-driven decision support.
+
+---
+
+# 🔗 Tableau Public Dashboard
 
 https://public.tableau.com/app/profile/mohammed.mahaboob.alisha.shaik/viz/Electricity_Consumption_Analysis_17837707990200/Dashboard1?publish=yes
 
 ---
 
-## 📁 Dataset
+# 📁 Dataset
 
 https://drive.google.com/file/d/1JxIkHNwXxjFztKq7ad0_KtkukCqTckNy/view
 
 ---
 
-## 📌 GitHub Repository
+# 💻 GitHub Repository
 
 https://github.com/Alisha40477/Electricity-Consumption-Analysis
 
 ---
 
-## 👨‍💻 Author
+# 👥 Team Members
 
-**Shaik Mohammed Mahaboob Alisha**
-
-B.Tech – Computer Science & Engineering (AI & ML)
-
-Aditya College of Engineering and Technology
+- Mohammed Mahaboob Alisha Shaik
+- Hemanth Kallepalli
+- Satish Vujjuri
+- Sudheeksha Sangana
+- Veligatla Pavan Kumar
 
 ---
 
-## 📄 License
+# 🏫 Institution
 
-This project is licensed under the MIT License.
+**Aditya College of Engineering and Technology**
+
+Department of Computer Science & Engineering (Artificial Intelligence & Machine Learning)
+
+---
+
+# 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+# ⭐ Acknowledgement
+
+This project was developed as part of the **APSCHE Data Analytics Internship**. It demonstrates the practical application of Business Intelligence tools including MySQL, SQL, Tableau, Flask, and GitHub for analyzing electricity consumption patterns and generating interactive business insights.
